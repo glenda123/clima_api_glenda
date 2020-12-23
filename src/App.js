@@ -23,7 +23,7 @@ function App() {
   const [error, guardarError] = useState(false)
 
   useEffect( () => {
-    const consultarAPI = async() => {
+    const consultarAPI = async () => {
 
       if(consultar) {
 
